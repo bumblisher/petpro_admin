@@ -1,0 +1,329 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/css/reset.css">
+    <link rel="stylesheet" href="resource/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="resource/js/main.js"></script>
+    <title>PETPRO</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <a href="index.html" class="logo"><h1>PETPRO</h1></a>
+            <div class="header_inner">
+                <p>PETPRO POTAL</p>
+                <p>접속IP : 218.237.65.1</p>
+                <div class="right">
+                    <span class="name">최은희 (A등급)님</span>
+                    <span>이 로그인하셨습니다</span>
+                    <button>로그아웃</button>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <aside>
+                <ul class="nav_menu">
+                    <li class="active">
+                        <a href="#">회원관리</a>
+                        <ul>
+                            <li class="on"><a href="#">등록하기</a></li>
+                            <li><a href="#">수정하기</a></li>
+                            <li><a href="#">조회하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">광고현황</a>
+                        <ul>
+                            <li><a href="#">매장관리</a></li>
+                            <li><a href="#">매장등록</a></li>
+                            <li><a href="#">광고접수조회</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">정산관리</a>
+                        <ul>
+                            <li><a href="#">배정하기</a></li>
+                            <li><a href="#">배정결과</a></li>
+                            <li><a href="#">정산하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">알림톡시스템</a>
+                        <ul>
+                            <li><a href="#">사원배정</a></li>
+                            <li><a href="#">설계서발송</a></li>
+                            <li><a href="#">사은품안내</a></li>
+                            <li><a href="#">상담안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <div class="cont_title"><h2>매장 수정</h2></div>
+            <div class="content">
+                <div class="content_inner form">
+                    <div class="box_form">
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">아이디</p>
+                                <div class="grp_flex">
+                                    <input type="text" placeholder="매장명을 아이디로 설정해 주세요">
+                                    <button class="btn_cm">중복확인</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">비밀번호</p>
+                                <button class="btn_cm">비밀번호 변경</button>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">매장명</p>
+                                <input type="text" placeholder="사업자 등록증의 매장명을 입력해 주세요">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">사업자 등록번호</p>
+                                <input type="text" placeholder="사업자 등록번호를 입력해 주세요">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">대표자성명</p>
+                                <input type="text" placeholder="사업자 등록증상의 대표자명을 입력해 주세요">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">관리자성명</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">관리자연락처</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">매장주소</p>
+                                <div class="grp_flex">
+                                    <button class="btn_cm">주소찾기</button>
+                                    <input type="text">
+                                    
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit"></p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">광고비 입금은행</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">광고비 입금계좌</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">1. 행복한오늘<br>파트너계약서</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">2. 광고파트너<br>신청서</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">3. 사업자등록증</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">4. 통장사본</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">5. 매장사진 1</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">5. 매장사진 2</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">5. 매장사진 3</p>
+                                <div class="grp_file">
+                                    <input type="text">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_form">
+                        <div class="grp_form">
+                            <div class="cont" style="min-height: auto;">
+                                <p class="tit">광고상품</p>
+                                <span>기본상품 삼성화재 “위풍댕댕" 펫보험</span>
+                            </div>
+                            <div class="cont">
+                                <p class="tit"></p>
+                                <div class="grp_flex">
+                                    <span class="tit_sub">추가선택 1.</span>
+                                    <select type="text">
+                                        <option value=""></option>
+                                        <option value="">option01</option>
+                                        <option value="">option02</option>
+                                        <option value="">option03</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit"></p>
+                                <div class="grp_flex">
+                                    <span class="tit_sub">추가선택 2.</span>
+                                    <select type="text">
+                                        <option value=""></option>
+                                        <option value="">option01</option>
+                                        <option value="">option02</option>
+                                        <option value="">option03</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">기기종류</p>
+                                <select type="text">
+                                    <option value=""></option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">광고유형</p>
+                                <select type="text">
+                                    <option value=""></option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">광고비</p>
+                                <select type="text">
+                                    <option value=""></option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">리워드 상품</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">리워드 단가</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">광고기간</p>
+                                <div class="grp_flex">
+                                    <input type="text" readonly="readonly">
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">영업자</p>
+                                <span>주태성</span>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">영업자 수수료</p>
+                                <select type="text">
+                                    <option value=""></option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <div class="notice">
+                                    <p>TIP</p>
+                                    <ul>
+                                        <li>향후  수정할 수 있는 항목은 기기 종류 / 광고기간 / 리워드 상품 단가만 수정됩니다. 등록 시 유의해 주세요.</li>
+                                        <li>광고기간 마감 후 신규 재 등록을 원할 경우 관리 센터로문의하세요. (02-2088-5710)</li>
+                                        <li>CPA 즉 개별적 광고 정산을 선택한 경우 광고비 정산은 주 마감 후 2주 후 수요일에 지급됩니다.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_btn">
+                    <button>등록하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
