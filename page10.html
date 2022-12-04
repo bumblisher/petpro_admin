@@ -63,48 +63,11 @@
                     </li>
                 </ul>
             </aside>
-            <div class="cont_title"><h2>배정하기</h2>
+            <div class="cont_title"><h2>배정결과</h2>
             </div>
             <div class="content">
                 <div class="content_inner sch">
                     <div class="box_form">
-                        <div class="grp_form">
-                            <div class="cont">
-                                <p class="tit">기간</p>
-                                <div class="grp_flex">
-                                    <div class="grp_cal">
-                                        <input type="text">
-                                        <button></button>
-                                    </div>
-                                    <span>-</span>
-                                    <div class="grp_cal">
-                                        <input type="text">
-                                        <button></button>
-                                    </div>
-                                    <button class="btn_cm">검색하기</button>
-                                    <button class="btn_cm white">초기화</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grp_form">
-                            <div class="cont">
-                                <div class="grp_flex">
-                                    <p class="tit">TOTAL</p>
-                                    <span class="blue">4,500</span>
-                                    <p class="tit">배정완료</p>
-                                    <span class="blue">1,500</span>
-                                    <p class="tit">미배정건</p>
-                                    <span class="blue">3,000</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="content_inner sch">
-                    <div class="box_form">
-                        <div class="box_form_tit">
-                            <p>배정하기</p>
-                        </div>
                         <div class="grp_form">
                             <div class="cont">
                                 <p class="tit">기간</p>
@@ -124,7 +87,7 @@
                         </div>
                         <div class="grp_form">
                             <div class="cont">
-                                <p class="tit">미배정건</p>
+                                <p class="tit">배정완료</p>
                                 <div class="grp_flex">
                                     <span class="blue">3,000</span>
                                 </div>
@@ -134,12 +97,7 @@
                             <div class="cont">
                                 <p class="tit">배정조건</p>
                                 <div class="grp_flex">
-                                    <div class="grp_check">
-                                        <input type="checkbox" id="chk01"><label for="chk01">담당자별 공통배분</label>
-                                        <input type="checkbox" id="chk02"><label for="chk02">선택담당자 공통배분</label>
-                                        <input type="checkbox" id="chk03"><label for="chk03">선택담당자 배분</label>
-                                    </div>
-                                    <input type="text" style="width: 166px;" placeholder="배정할 수를 입력해 주세요">
+                                    <input type="text" style="width: 166px;">
                                     <button class="btn_cm">검색하기</button>
                                 </div>
                             </div>
@@ -149,7 +107,7 @@
                 <div class="content_inner">
                     <div class="box_board">
                         <div class="board_tit">
-                            <span>미배정목록 (총 <span class="num">2</span> 개)</span>
+                            <span>배정완료 목록 (총 <span class="num">2</span> 개)</span>
                             <div class="right">
                                 <select class="select" type="text" style="width:100px">
                                     <option value="">등록일순</option>
@@ -177,12 +135,11 @@
                                     <th>선택</th>
                                     <th class="tac">광고주</th>
                                     <th class="tac">신청일시</th>
+                                    <th class="tac">배정일시</th>
                                     <th>보호자 성명</th>
                                     <th>연락처</th>
-                                    <th>이름</th>
-                                    <th class="tac">견종</th>
-                                    <th class="tac">나이</th>
-                                    <th>개별배정</th>
+                                    <th>상담원성명</th>
+                                    <th>배정결과</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -195,22 +152,19 @@
                                         <p>2022.10.13 13:22:01</p>
                                     </td>
                                     <td>
-                                        <p>김미미</p>
+                                        <p>2022.10.13 13:22:01</p>
+                                    </td>
+                                    <td>
+                                        <p>최은희</p>
                                     </td>
                                     <td>
                                         <p>010-2030-2020</p>
                                     </td>
-                                    <td>
-                                        <p>로미</p>
-                                    </td>
                                     <td class="tac">
-                                        <p>말티푸</p>
-                                    </td>
-                                    <td class="tac">
-                                        <p>1살</p>
+                                        <p>김민지</p>
                                     </td>
                                     <td>
-                                        <button>배정하기</button>
+                                        <button>결과입력</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -222,22 +176,19 @@
                                         <p>2022.10.13 13:22:01</p>
                                     </td>
                                     <td>
-                                        <p>김미미</p>
+                                        <p>2022.10.13 13:22:01</p>
+                                    </td>
+                                    <td>
+                                        <p>최은희</p>
                                     </td>
                                     <td>
                                         <p>010-2030-2020</p>
                                     </td>
-                                    <td>
-                                        <p>로미</p>
-                                    </td>
                                     <td class="tac">
-                                        <p>말티푸</p>
-                                    </td>
-                                    <td class="tac">
-                                        <p>1살</p>
+                                        <p>김민지</p>
                                     </td>
                                     <td>
-                                        <button>배정하기</button>
+                                        <button>결과입력</button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -249,22 +200,19 @@
                                         <p>2022.10.13 13:22:01</p>
                                     </td>
                                     <td>
-                                        <p>김미미</p>
+                                        <p>2022.10.13 13:22:01</p>
+                                    </td>
+                                    <td>
+                                        <p>최은희</p>
                                     </td>
                                     <td>
                                         <p>010-2030-2020</p>
                                     </td>
-                                    <td>
-                                        <p>로미</p>
-                                    </td>
                                     <td class="tac">
-                                        <p>말티푸</p>
-                                    </td>
-                                    <td class="tac">
-                                        <p>1살</p>
+                                        <p>김민지</p>
                                     </td>
                                     <td>
-                                        <button>배정하기</button>
+                                        <button>결과입력</button>
                                     </td>
                                 </tr>
                             </tbody>
