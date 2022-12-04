@@ -1,0 +1,203 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/css/reset.css">
+    <link rel="stylesheet" href="resource/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="resource/js/main.js"></script>
+    <title>PETPRO</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <a href="index.html" class="logo"><h1>PETPRO</h1></a>
+            <div class="header_inner">
+                <p>PETPRO POTAL</p>
+                <p>접속IP : 218.237.65.1</p>
+                <div class="right">
+                    <span class="name">최은희 (A등급)님</span>
+                    <span>이 로그인하셨습니다</span>
+                    <button>로그아웃</button>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <aside>
+                <ul class="nav_menu">
+                    <li class="active">
+                        <a href="#">회원관리</a>
+                        <ul>
+                            <li class="on"><a href="#">등록하기</a></li>
+                            <li><a href="#">수정하기</a></li>
+                            <li><a href="#">조회하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">광고현황</a>
+                        <ul>
+                            <li><a href="#">매장관리</a></li>
+                            <li><a href="#">매장등록</a></li>
+                            <li><a href="#">광고접수조회</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">정산관리</a>
+                        <ul>
+                            <li><a href="#">배정하기</a></li>
+                            <li><a href="#">배정결과</a></li>
+                            <li><a href="#">정산하기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">알림톡시스템</a>
+                        <ul>
+                            <li><a href="#">사원배정</a></li>
+                            <li><a href="#">설계서발송</a></li>
+                            <li><a href="#">사은품안내</a></li>
+                            <li><a href="#">상담안내</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <div class="cont_title"><h2>사원 등록</h2></div>
+            <div class="content">
+                <div class="content_inner form">
+                    <div class="box_form">
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">아이디</p>
+                                <div class="grp_flex">
+                                    <input type="text" placeholder="영문, 숫자 조합 8자리 이상">
+                                    <button class="btn_cm">중복확인</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">비밀번호</p>
+                                <input type="password" placeholder="영문, 특수문자, 숫자 조합 8자리 이상">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">비밀번호 확인</p>
+                                <input type="password" placeholder="영문, 특수문자, 숫자 조합 8자리 이상">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">성명</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">사원번호</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">부서</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">직급</p>
+                                <select type="text">
+                                    <option value=""></option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">연락처</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">이메일</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">카톡채팅 URL</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_form">
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">관리등급</p>
+                                <select type="text">
+                                    <option value=""></option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <div class="notice">
+                                    <p>주의사항</p>
+                                    <ul>
+                                        <li>개인정보를 열람하는 사원인 경우 개인정보 보호에 따른별도에 서명이 필요합니다.</li>
+                                        <li>사원의 휴대폰 번호는 휴대폰 인증 후 등록해 주세요.</li>
+                                        <li>본인 휴대폰이 아닌 경우 사원 등록은 되지 않습니다.</li>
+                                        <li>개인정보 보호 지침에 따른 교육을 필수적으로 이행해 주세요.</li>
+                                        <li>향후 사원에 대한 정보 수정은 업무/연락처/등급에 한하여수정되니 등록에 주의해 주세요.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_btn">
+                    <button>등록하기</button>
+                </div>
+            </div>
+        </div>
+        <div class="dim on"></div>
+        <div class="popup on" style="width:510px;">
+            <div class="pop_header">
+                <h2>배정상담원 선택하기</h2>
+            </div>
+            <div class="pop_cont">
+                <div class="box_form">
+                    <div class="grp_form">
+                        <div class="cont">
+                            <p class="tit">담당자 검색</p>
+                            <div class="grp_flex">
+                                <input type="text" placeholder="">
+                                <button class="btn_cm navy">검색</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grp_form">
+                        <div class="cont">
+                            <ul class="list_radio"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_footer">
+                <button class="btn_cm gray">취소</button>
+                <button class="btn_cm blue">담당자 배정하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
