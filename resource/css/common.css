@@ -375,7 +375,7 @@ body.login .wrap{height: auto;}
 .popup .pop_header .btn_close:after { content:''; position: absolute; top: 50%; width: 22px; height: 2px; background-color: #000; margin-left: -11px; } 
 .popup .pop_header .btn_close:before { transform: rotate(135deg) translateX(0%); } 
 .popup .pop_header .btn_close:after { transform: rotate(45deg) translateX(0%); }  */
-.popup .pop_cont { overflow: auto; padding:29px 0 30px; box-sizing: border-box; font-weight: 400;font-size: 18px;line-height: 150%;} 
+.popup .pop_cont { overflow: auto; padding:30px; box-sizing: border-box; font-weight: 400;font-size: 18px;line-height: 150%;} 
 .popup .pop_cont.pd0{padding: 0;}
 .popup .pop_cont p.sub_txt{margin-top: 10px;;color: #868E96;font-size: 15px;}
 .popup .pop_cont .box_form p.sub_txt{margin-top: 0;font-size: 13px;}
